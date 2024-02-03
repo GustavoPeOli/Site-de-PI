@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header, nav, main, footer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fc8e11;
+    padding: 20px;
+}
+
+header img {
+    margin-right: 10px;
+}
+
+header h1 {
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav a {
+    background-color: #ccc;
+    text-decoration: none;
+    color: #000;
+    padding: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover{
+    background-color: #111;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+main {
+    background-color: #f4f4f4;
+}
+
+.info{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#mainAgra{
+    height: 265px;
+    text-align: center;
+}
+
+#mainAgra h2{
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    margin-top: 100px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+footer p{
+    font-style: italic;
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 30px;
+    color: white;
+}
+
+h2 {
+    color: #28a745;
+}
+
+a {
+    color: #fc8e11;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li{
+    margin-left: 15px;
+}
+
+input{
+    padding: 2px;
+    border-radius: 5px;
+    margin: 10px 0px 3px;
+}
+
+input:checked + label{
+    font-weight: bold;
+}
+
+input[required]:valid{
+    border: 1px solid rgb(12, 140, 12);
+    outline: none;
+    background-color: rgb(139, 252, 139);
+}
+
+input:invalid{
+    border: 1px solid red;
+    outline: none;
+    background-color: rgb(251, 161, 161);
+}
+
+fieldset{
+    padding: 15px;
+}
+
+#botoes{
+    text-align: center;
+}
+
+.botao{
+    padding: 10px;
+    margin: 7px;
+    border-radius: 8px;
+    border: none;
+    background-color: #000;
+    color: white;
+}
+
+.botao:hover{
+    background-color: #333;
+}
+
+.fotos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.botaoa{
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.botaoa:hover{
+    background-color: #333;
+    text-decoration: none;
+}
